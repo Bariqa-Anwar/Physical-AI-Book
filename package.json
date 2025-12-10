@@ -1,0 +1,24 @@
+{
+  "name": "docusourus-book",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+  "start": "docusaurus start",
+  "build": "docusaurus build",
+  "serve": "docusaurus serve",
+  "clear": "docusaurus clear"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@docusaurus/core": "^3.9.2",
+    "@docusaurus/preset-classic": "^3.9.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}

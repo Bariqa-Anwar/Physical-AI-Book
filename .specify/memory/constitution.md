@@ -1,55 +1,60 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+- Version change: N/A -> 1.0.0
+- Modified principles: All (newly defined)
+- Added sections: Key Standards, Constraints and Success Criteria
+- Removed sections: None
+- Templates requiring updates:
+    - .specify/templates/plan-template.md: ✅ updated
+    - .specify/templates/spec-template.md: ✅ updated (no changes needed)
+    - .specify/templates/tasks-template.md: ✅ updated (no changes needed)
+    - .gemini/commands/sp.adr.toml: ✅ updated (no changes needed)
+    - .gemini/commands/sp.analyze.toml: ✅ updated (no changes needed)
+    - .gemini/commands/sp.checklist.toml: ✅ updated (no changes needed)
+    - .gemini/commands/sp.clarify.toml: ✅ updated (no changes needed)
+    - .gemini/commands/sp.constitution.toml: ✅ updated (no changes needed)
+    - .gemini/commands/sp.git.commit_pr.toml: ✅ updated (no changes needed)
+    - .gemini/commands/sp.implement.toml: ✅ updated (no changes needed)
+    - .gemini/commands/sp.phr.toml: ✅ updated (no changes needed)
+    - .gemini/commands/sp.plan.toml: ✅ updated (no changes needed)
+    - .gemini/commands/sp.specify.toml: ✅ updated (no changes needed)
+    - .gemini/commands/sp.tasks.toml: ✅ updated (no changes needed)
+- Follow-up TODOs: None
+-->
+# AI/Spec-Driven Book Creation: Physical AI & Humanoid Robotics (Docusaurus) Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Technical Accuracy
+All content, code snippets, and hardware specifications must be factually correct and aligned with the official documentation for ROS 2, Gazebo, NVIDIA Isaac, and Docusaurus.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Step-by-Step Pedagogy
+The content must be structured to facilitate student learning, moving from core concepts to practical implementation, as detailed in the four modules.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Consistency
+Maintain a consistent professional/academic tone suitable for a university-level capstone course. Use standardized terminology (e.g., always use 'ROS 2' not 'ROS 2.0').
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+## Key Standards
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+- **Output Format**: All content must be in clean, valid *Markdown (MDX)* syntax, ready for direct inclusion into a Docusaurus documentation structure.
+- **Structure Mandate**: The book must adhere strictly to the user-provided structure: [Introduction/Setup] -> [Module 1] -> [Module 2] -> [Module 3] -> [Module 4].
+- **Chapter Granularity**: Each Module must be broken down into logically sequenced chapters with high-level, detailed, and accurate content (as demonstrated in the Chapter 1 reference).
+- **Code Integrity**: All code examples (e.g., Python rclpy nodes, URDF snippets) must be complete, syntactically correct, and use appropriate Markdown code blocks with language highlighting.
+- **Visualization Tagging**: For complex concepts (e.g., ROS 2 computation graph, URDF structure, Sim-to-Real workflow), embed *Diagram Tags* for instructional value.
 
-### [PRINCIPLE_6_NAME]
+## Constraints and Success Criteria
 
+### Constraints
+- **Technology Stack**: Content generation must focus exclusively on: *ROS 2 Humble/Iron, **Python 3.10+ (rclpy), **Gazebo, **Unity (for visualization/HRI), **NVIDIA Isaac Sim/ROS, and **LLM/VLA integration (OpenAI Whisper/GPT)*.
+- **Exclusion**: Do NOT include content on the legacy *ROS 1* platform, except for brief explanatory context on why ROS 2 is superior, if necessary.
+- **Deployment**: All final content must be compatible with Docusaurus and deployment to GitHub Pages (e.g., no external file dependencies outside of the defined project structure).
 
-[PRINCIPLE__DESCRIPTION]
-
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+### Success Criteria
+- The generated Docusaurus Markdown files align perfectly with the required Module/Chapter hierarchy.
+- Content is technically accurate and complete for all core concepts in the *Weekly Breakdown*.
+- Visualization tags are strategically placed to enhance understanding of complex systems.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+This Constitution defines the core principles and operational guidelines for the project. All work, including design, development, and documentation, must adhere to these tenets. Any proposed amendments to this Constitution must be formally documented, approved by the project leads, and include a clear migration plan for existing work. Compliance with these rules will be regularly reviewed, and significant deviations will require immediate corrective action.
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
-
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-10 | **Last Amended**: 2025-12-10
