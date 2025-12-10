@@ -8,7 +8,7 @@ RViz2 (ROS Visualization) is a powerful 3D visualizer for displaying sensor data
 
 ## 1. Launching RViz2
 
-First, ensure your ROS 2 environment is sourced (as discussed in the [ROS 2 Installation Guide](./ros2-install.mdx)). You can launch RViz2 directly from your terminal.
+First, ensure your ROS 2 environment is sourced (as discussed in the [ROS 2 Installation Guide](./ros2-install)). You can launch RViz2 directly from your terminal.
 
 ```bash
 rviz2
