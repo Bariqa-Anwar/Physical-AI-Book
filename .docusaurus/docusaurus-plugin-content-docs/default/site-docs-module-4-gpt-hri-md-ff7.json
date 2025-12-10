@@ -1,0 +1,23 @@
+{
+  "id": "module4/gpt-hri",
+  "title": "LLM for Command Understanding and Response",
+  "description": "Once speech has been converted to text using a Speech-to-Text (STT) model like Whisper, the next step in achieving natural Human-Robot Interaction (HRI) is to interpret these text commands and generate an appropriate response or action. Large Language Models (LLMs) like OpenAI's GPT series are exceptionally good at understanding natural language, extracting intent, and generating coherent text, making them ideal for this role.",
+  "source": "@site/docs/module4/gpt-hri.md",
+  "sourceDirName": "module4",
+  "slug": "/module4/gpt-hri",
+  "permalink": "/docs/module4/gpt-hri",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module4/gpt-hri.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Speech-to-Text with OpenAI Whisper",
+    "permalink": "/docs/module4/whisper-stt"
+  }
+}

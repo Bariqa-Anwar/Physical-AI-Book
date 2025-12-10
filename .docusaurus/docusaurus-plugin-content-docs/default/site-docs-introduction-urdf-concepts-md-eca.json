@@ -1,0 +1,27 @@
+{
+  "id": "introduction/urdf-concepts",
+  "title": "Introduction to URDF Concepts",
+  "description": "The Unified Robot Description Format (URDF) is an XML format for describing all aspects of a robot. It's used extensively in ROS to represent the robot's kinematic and dynamic properties, visualize the robot in simulators like Gazebo or RViz, and perform motion planning.",
+  "source": "@site/docs/introduction/urdf-concepts.md",
+  "sourceDirName": "introduction",
+  "slug": "/introduction/urdf-concepts",
+  "permalink": "/docs/introduction/urdf-concepts",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/urdf-concepts.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Docusaurus Project Setup",
+    "permalink": "/docs/introduction/docusaurus-setup"
+  },
+  "next": {
+    "title": "Visualizing URDF in RViz2",
+    "permalink": "/docs/introduction/rviz2-urdf"
+  }
+}

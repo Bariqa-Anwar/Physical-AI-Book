@@ -1,0 +1,27 @@
+{
+  "id": "module3/inverse-kinematics",
+  "title": "Inverse Kinematics for Robotic Arms",
+  "description": "Inverse Kinematics (IK) is a fundamental problem in robotics that involves determining the joint configurations of a robot arm that will achieve a desired position and orientation for its end-effector. While forward kinematics calculates the end-effector pose from known joint angles, IK solves the inverse: Given (x, y, z, roll, pitch, yaw) of end-effector, find (q1, q2, ..., qn) joint angles.",
+  "source": "@site/docs/module3/inverse-kinematics.md",
+  "sourceDirName": "module3",
+  "slug": "/module3/inverse-kinematics",
+  "permalink": "/docs/module3/inverse-kinematics",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module3/inverse-kinematics.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Robotic Control Fundamentals",
+    "permalink": "/docs/module3/control-fundamentals"
+  },
+  "next": {
+    "title": "Speech-to-Text with OpenAI Whisper",
+    "permalink": "/docs/module4/whisper-stt"
+  }
+}

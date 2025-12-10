@@ -1,0 +1,27 @@
+{
+  "id": "introduction/docusaurus-setup",
+  "title": "Docusaurus Project Setup",
+  "description": "Docusaurus is a static site generator that helps you build optimized websites quickly. It's particularly well-suited for documentation, and we will use it to structure our \"Physical AI & Humanoid Robotics\" book. This section covers installing the Docusaurus CLI and creating your project.",
+  "source": "@site/docs/introduction/docusaurus-setup.md",
+  "sourceDirName": "introduction",
+  "slug": "/introduction/docusaurus-setup",
+  "permalink": "/docs/introduction/docusaurus-setup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/docusaurus-setup.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Python Environment Setup",
+    "permalink": "/docs/introduction/python-env"
+  },
+  "next": {
+    "title": "Introduction to URDF Concepts",
+    "permalink": "/docs/introduction/urdf-concepts"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "introduction/ros2-install",
+          "docs": [
+            {
+              "id": "introduction/docusaurus-setup",
+              "path": "/docs/introduction/docusaurus-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction/python-env",
+              "path": "/docs/introduction/python-env",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction/ros2-install",
+              "path": "/docs/introduction/ros2-install",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction/rviz2-urdf",
+              "path": "/docs/introduction/rviz2-urdf",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction/urdf-concepts",
+              "path": "/docs/introduction/urdf-concepts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module1/gazebo-intro",
+              "path": "/docs/module1/gazebo-intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module1/ros2-nodes",
+              "path": "/docs/module1/ros2-nodes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module2/isaac-sim-intro",
+              "path": "/docs/module2/isaac-sim-intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module2/virtual-sensors",
+              "path": "/docs/module2/virtual-sensors",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module3/control-fundamentals",
+              "path": "/docs/module3/control-fundamentals",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module3/inverse-kinematics",
+              "path": "/docs/module3/inverse-kinematics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module4/gpt-hri",
+              "path": "/docs/module4/gpt-hri",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module4/whisper-stt",
+              "path": "/docs/module4/whisper-stt",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/introduction/ros2-install",
+                "label": "introduction/ros2-install"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

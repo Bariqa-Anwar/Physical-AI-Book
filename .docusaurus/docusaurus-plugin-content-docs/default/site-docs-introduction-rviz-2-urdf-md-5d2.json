@@ -1,0 +1,27 @@
+{
+  "id": "introduction/rviz2-urdf",
+  "title": "Visualizing URDF in RViz2",
+  "description": "RViz2 (ROS Visualization) is a powerful 3D visualizer for displaying sensor data, robot models, and planning outputs in ROS 2. It's an indispensable tool for debugging and understanding your robot's behavior. In this section, we'll learn how to load and visualize our URDF models in RViz2.",
+  "source": "@site/docs/introduction/rviz2-urdf.md",
+  "sourceDirName": "introduction",
+  "slug": "/introduction/rviz2-urdf",
+  "permalink": "/docs/introduction/rviz2-urdf",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/rviz2-urdf.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction to URDF Concepts",
+    "permalink": "/docs/introduction/urdf-concepts"
+  },
+  "next": {
+    "title": "ROS 2 Nodes and Topics",
+    "permalink": "/docs/module1/ros2-nodes"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "module1/gazebo-intro",
+  "title": "Introduction to Gazebo Simulation",
+  "description": "Gazebo is a powerful 3D robot simulator that is widely used in the robotics community. It allows you to accurately and efficiently simulate populations of robots in complex indoor and outdoor environments. Gazebo offers the ability to simulate sensors, actuators, and even entire robotic systems with realistic physics.",
+  "source": "@site/docs/module1/gazebo-intro.md",
+  "sourceDirName": "module1",
+  "slug": "/module1/gazebo-intro",
+  "permalink": "/docs/module1/gazebo-intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module1/gazebo-intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ROS 2 Nodes and Topics",
+    "permalink": "/docs/module1/ros2-nodes"
+  },
+  "next": {
+    "title": "Introduction to NVIDIA Isaac Sim",
+    "permalink": "/docs/module2/isaac-sim-intro"
+  }
+}

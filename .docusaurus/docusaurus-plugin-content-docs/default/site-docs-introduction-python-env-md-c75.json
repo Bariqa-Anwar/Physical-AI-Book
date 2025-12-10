@@ -1,0 +1,27 @@
+{
+  "id": "introduction/python-env",
+  "title": "Python Environment Setup",
+  "description": "This section guides you through setting up a dedicated Python environment (using venv or conda) for your ROS 2 projects. Maintaining isolated environments is crucial for managing dependencies and avoiding conflicts between different projects. ROS 2 is built to work with Python 3, and for this book, we will primarily use Python 3.10+.",
+  "source": "@site/docs/introduction/python-env.md",
+  "sourceDirName": "introduction",
+  "slug": "/introduction/python-env",
+  "permalink": "/docs/introduction/python-env",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/python-env.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ROS 2 Installation Guide",
+    "permalink": "/docs/introduction/ros2-install"
+  },
+  "next": {
+    "title": "Docusaurus Project Setup",
+    "permalink": "/docs/introduction/docusaurus-setup"
+  }
+}

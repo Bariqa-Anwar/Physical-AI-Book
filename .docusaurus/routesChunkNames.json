@@ -1,0 +1,117 @@
+{
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    },
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+  },
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/docs-0aa": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docsaba-d7c"
+    }
+  },
+  "/docs-3fd": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---docs-005-788"
+  },
+  "/docs-081": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/introduction/docusaurus-setup-623": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-introduction-docusaurus-setup-357-138"
+  },
+  "/docs/introduction/python-env-940": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-introduction-python-envc-75-483"
+  },
+  "/docs/introduction/ros2-install-3f3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-introduction-ros-2-installeac-16d"
+  },
+  "/docs/introduction/rviz2-urdf-f83": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-introduction-rviz-2-urdf-5-d-2-c68"
+  },
+  "/docs/introduction/urdf-concepts-294": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-introduction-urdf-conceptseca-7fc"
+  },
+  "/docs/module1/gazebo-intro-fa8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-gazebo-intro-589-2dd"
+  },
+  "/docs/module1/ros2-nodes-08d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-nodes-1-ef-021"
+  },
+  "/docs/module2/isaac-sim-intro-71a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-isaac-sim-introfe-8-547"
+  },
+  "/docs/module2/virtual-sensors-d9d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-virtual-sensors-0-fb-0cc"
+  },
+  "/docs/module3/control-fundamentals-6ea": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-control-fundamentals-3-a-1-65a"
+  },
+  "/docs/module3/inverse-kinematics-f8c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-inverse-kinematics-73-c-f10"
+  },
+  "/docs/module4/gpt-hri-080": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-gpt-hriff-7-945"
+  },
+  "/docs/module4/whisper-stt-79d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-whisper-sttd-5-d-a28"
+  },
+  "/-2e1": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---a-74-9d6"
+    },
+    "config": "config---5-e-9-4f3"
+  }
+}

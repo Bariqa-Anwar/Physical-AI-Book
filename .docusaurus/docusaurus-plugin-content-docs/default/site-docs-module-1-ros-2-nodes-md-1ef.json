@@ -1,0 +1,27 @@
+{
+  "id": "module1/ros2-nodes",
+  "title": "ROS 2 Nodes and Topics",
+  "description": "In ROS 2, the fundamental unit of computation is a Node. Nodes are processes that perform specific tasks, such as reading sensor data, controlling a motor, or performing calculations. Nodes communicate with each other by sending and receiving Messages over Topics. This publish/subscribe messaging pattern is central to ROS 2's distributed architecture.",
+  "source": "@site/docs/module1/ros2-nodes.md",
+  "sourceDirName": "module1",
+  "slug": "/module1/ros2-nodes",
+  "permalink": "/docs/module1/ros2-nodes",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module1/ros2-nodes.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Visualizing URDF in RViz2",
+    "permalink": "/docs/introduction/rviz2-urdf"
+  },
+  "next": {
+    "title": "Introduction to Gazebo Simulation",
+    "permalink": "/docs/module1/gazebo-intro"
+  }
+}
